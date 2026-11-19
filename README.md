@@ -2,6 +2,15 @@
 
 A lightweight client-side Fabric mod by Disproven. Hold one hotbar key and tap another to switch briefly, then return to the held slot. Jumping preserves repeat behavior. Releasing the held key clears pending repeats.
 
+## Downloads
+
+Choose the JAR for your Minecraft version, then place it in your Fabric instance’s `mods` folder.
+
+- [Minecraft 1.21.11](downloads/hotbar-repeat-fix-1.0.4+1.21.11.jar?raw=true)
+- [Minecraft 26.1](downloads/hotbar-repeat-fix-1.0.4+26.1.jar?raw=true)
+- [Minecraft 26.2](downloads/hotbar-repeat-fix-1.0.4+26.2.jar?raw=true)
+- [Minecraft 26.3](downloads/hotbar-repeat-fix-1.0.4+26.3.jar?raw=true)
+
 ## Reviewing the code
 
 The two mixins in src/main/java/dev/hotbarrepeatfix/mixin handle keyboard events and hotbar press counts for 1.21.11. The equivalent code for each newer version lives in ports under its Minecraft version number. RepeatConfig handles the local enabled setting in config/hotbar-repeat-fix.properties. Mod Menu provides an optional on/off button.

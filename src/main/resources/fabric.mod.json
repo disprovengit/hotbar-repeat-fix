@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "hotbar_repeat_fix",
+  "version": "1.0.4+1.21.11",
+  "name": "Hotbar Repeat Fix",
+  "description": "Made by Disproven\nFixes keyboard repeat backlog for hotbar inputs",
+  "authors": ["Disproven"],
+  "icon": "assets/hotbar_repeat_fix/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "modmenu": ["dev.hotbarrepeatfix.ModMenuIntegration"]
+  },
+  "mixins": ["hotbar-repeat-fix.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
